@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Pacifico&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+nav {
+    position: fixed !important ;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white !important ;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: "Pacifico";
+    font-size: 1.3rem;
+    color: coral !important ;
+}
+.nav-link {
+    font-family: "roboto";
+    font-weight: 500;
+    color: rgb(46, 46, 46)  !important;
+}
+.nav-link:hover {
+    color: rgb(0, 187, 194)  !important;
+    text-decoration: underline;
+}
+
+.active .nav-link {
+    color: rgb(0, 187, 194) !important; 
+}
+
+
+/* Header */
+.header {
+    background-image: url(./img/header-img.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.header h1 {
+    font-size: 4rem;
+    font-family: 'Questrial';
+    text-shadow: 2px 2px 4px rgb(71, 71, 71);
+}
+.header .lead {
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+
+.btn-action .btn {
+    font-size: 1.5rem;
+}
+.btn-action input {
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+.btn-action input:hover {
+    text-shadow: none;
+}
